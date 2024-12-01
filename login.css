@@ -1,0 +1,101 @@
+.section__container {
+    max-width: var(--max-width);
+    padding: 0;
+  }
+.login__container {
+    position: relative;
+    max-width: 450px;
+    margin: 5rem auto;
+    padding: 3rem 2rem;
+    background-color: var(--primary-color-light);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .bg__blur {
+    position: absolute;
+    bottom: -5rem;
+    right: -5rem;
+    box-shadow: 0 0 1000px 50px var(--secondary-color);
+    z-index: 0;
+    opacity: 0.1;
+  }
+  
+  .login__form {
+    margin-top: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .form__group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+    font-weight: 500;
+  }
+  
+  .form__input {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color-extra-light);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: var(--white);
+    transition: 0.3s;
+  }
+  
+  .form__input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+  }
+  
+  .form__options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .remember__me {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-light);
+  }
+  
+  .forgot__password {
+    color: var(--text-light);
+    transition: 0.3s;
+  }
+  
+  .forgot__password:hover {
+    color: var(--secondary-color);
+  }
+  
+  .login__form .btn {
+    width: 100%;
+    font-weight: 600;
+  }
+  
+  .signup__prompt {
+    margin-top: 1.5rem;
+    text-align: center;
+    color: var(--text-light);
+  }
+  
+  .signup__link {
+    color: var(--secondary-color);
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .signup__link:hover {
+    color: var(--secondary-color-dark);
+  }
+  
+  
+  
